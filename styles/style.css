@@ -25,7 +25,7 @@
 }
 
 .header__title {
-  width: 730px;
+  max-width: 730px;
   margin: 0;
   z-index: 1;
   font-size: 102px;
@@ -37,6 +37,7 @@
   position: absolute;
   width: 388px;
   bottom: 30px;
+  left: 64px;
   z-index: 1;
   font-size: 18px;
   line-height: 25px;
@@ -163,6 +164,8 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin: 0 auto 0 auto;
+  padding: 0;
+  list-style-type: none;
 }
 
 .table__cell {
@@ -184,6 +187,10 @@
   font-size: 18px;
   font-weight: normal;
   margin: 0 0 20px 0;
+}
+
+.table__text:last-child {
+  margin: 0;
 }
 
 /* Feynman */
