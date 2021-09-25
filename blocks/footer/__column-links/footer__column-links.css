@@ -1,0 +1,6 @@
+.footer__column-links {
+  color: #FFFFFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
