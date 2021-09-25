@@ -9,5 +9,5 @@
 
 .khan__buy-link:hover {
   color: rgba(47, 128, 237, 0.7);
-  transition: opacity 3s ease-in;
+  transition: opacity 2s linear;
 }
